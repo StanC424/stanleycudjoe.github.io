@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body {
+font-family: "Montserrat", sans-serif;
+color: white;
+  background:  rgb(6, 21, 56) 0%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.heading{
+  font-family :"Source Sans 3", sans-serif;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sticky-header{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-container {
+  width: 70%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(16, 34, 76) 0%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color:  hsla(158, 23%, 18%, .7);
+}
+
+
+
+.header-container a {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header-container div:hover {
+    color:#c9bdbd;
+    background-color: rgb(124, 144, 188) 0%;
+  }
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+
+.about-section,.experiences-section,.school-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:20px;
+  margin-bottom:30px;
+  min-height: 100vh;
+}
+
+.about-container,.experiences-container,.school-container{
+  width:90%;
+}
+
+.about-container{
+  display:flex;
+}
+
+.about-section,.school-section{
+  background-color: white;
+  color:rgb(6, 21, 56);
+}
+
+
+.about-text p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  
+}
+
+.about-image{
+  padding-left:20px;
+}
+
+.img-styling{
+  width: 350px;
+}
+
+
+
+.experience-heading,.school-heading{
+  font-style: italic ;
+}
+
+
+.experience-option{
+  margin-bottom:10px;
+}
